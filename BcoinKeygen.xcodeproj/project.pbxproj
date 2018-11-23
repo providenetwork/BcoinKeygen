@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1B951C4D3638D8F5DDAFBB /* Pods_BcoinKeygen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0BEFD90AEC24F6ECCB04A51 /* Pods_BcoinKeygen.framework */; };
+		38224930219E9988004ECD63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3822492F219E9988004ECD63 /* AppDelegate.swift */; };
+		38224932219E9988004ECD63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38224931219E9988004ECD63 /* ViewController.swift */; };
+		38224935219E9988004ECD63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38224933219E9988004ECD63 /* Main.storyboard */; };
+		38224937219E998A004ECD63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38224936219E998A004ECD63 /* Assets.xcassets */; };
+		3822493A219E998A004ECD63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38224938219E998A004ECD63 /* LaunchScreen.storyboard */; };
+		38224945219E998A004ECD63 /* BcoinKeygenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38224944219E998A004ECD63 /* BcoinKeygenTests.swift */; };
+		681AAE0121A774880050D006 /* bcoinaddr.js in Resources */ = {isa = PBXBuildFile; fileRef = 681AAE0021A774880050D006 /* bcoinaddr.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38224941219E998A004ECD63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38224924219E9988004ECD63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3822492B219E9988004ECD63;
+			remoteInfo = BitcoinKeyGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BC9D854BB5309D4FADE9FB /* Pods-BcoinKeygen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BcoinKeygen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BcoinKeygen/Pods-BcoinKeygen.debug.xcconfig"; sourceTree = "<group>"; };
+		12D46A56B9511E5717DAB568 /* Pods-BcoinKeygen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BcoinKeygen.release.xcconfig"; path = "Pods/Target Support Files/Pods-BcoinKeygen/Pods-BcoinKeygen.release.xcconfig"; sourceTree = "<group>"; };
+		3822492C219E9988004ECD63 /* BcoinKeygen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BcoinKeygen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3822492F219E9988004ECD63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38224931219E9988004ECD63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38224934219E9988004ECD63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38224936219E998A004ECD63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38224939219E998A004ECD63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3822493B219E998A004ECD63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38224940219E998A004ECD63 /* BcoinKeygenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BcoinKeygenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38224944219E998A004ECD63 /* BcoinKeygenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BcoinKeygenTests.swift; sourceTree = "<group>"; };
+		38224946219E998A004ECD63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		681AAE0021A774880050D006 /* bcoinaddr.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = bcoinaddr.js; sourceTree = "<group>"; };
+		D0BEFD90AEC24F6ECCB04A51 /* Pods_BcoinKeygen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BcoinKeygen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38224929219E9988004ECD63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A1B951C4D3638D8F5DDAFBB /* Pods_BcoinKeygen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3822493D219E998A004ECD63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2105742A8F883C1A28C6380B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08BC9D854BB5309D4FADE9FB /* Pods-BcoinKeygen.debug.xcconfig */,
+				12D46A56B9511E5717DAB568 /* Pods-BcoinKeygen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38224923219E9988004ECD63 = {
+			isa = PBXGroup;
+			children = (
+				3822492E219E9988004ECD63 /* BcoinKeygen */,
+				38224943219E998A004ECD63 /* BcoinKeygenTests */,
+				3822492D219E9988004ECD63 /* Products */,
+				2105742A8F883C1A28C6380B /* Pods */,
+				61CB62643E917D35FEDBA259 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3822492D219E9988004ECD63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3822492C219E9988004ECD63 /* BcoinKeygen.app */,
+				38224940219E998A004ECD63 /* BcoinKeygenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3822492E219E9988004ECD63 /* BcoinKeygen */ = {
+			isa = PBXGroup;
+			children = (
+				3822492F219E9988004ECD63 /* AppDelegate.swift */,
+				38224931219E9988004ECD63 /* ViewController.swift */,
+				38224936219E998A004ECD63 /* Assets.xcassets */,
+				38224933219E9988004ECD63 /* Main.storyboard */,
+				38224938219E998A004ECD63 /* LaunchScreen.storyboard */,
+				3822493B219E998A004ECD63 /* Info.plist */,
+				681AAE0021A774880050D006 /* bcoinaddr.js */,
+			);
+			path = BcoinKeygen;
+			sourceTree = "<group>";
+		};
+		38224943219E998A004ECD63 /* BcoinKeygenTests */ = {
+			isa = PBXGroup;
+			children = (
+				38224944219E998A004ECD63 /* BcoinKeygenTests.swift */,
+				38224946219E998A004ECD63 /* Info.plist */,
+			);
+			path = BcoinKeygenTests;
+			sourceTree = "<group>";
+		};
+		61CB62643E917D35FEDBA259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0BEFD90AEC24F6ECCB04A51 /* Pods_BcoinKeygen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3822492B219E9988004ECD63 /* BcoinKeygen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38224949219E998A004ECD63 /* Build configuration list for PBXNativeTarget "BcoinKeygen" */;
+			buildPhases = (
+				3D8E461652BC1E5E8618C386 /* [CP] Check Pods Manifest.lock */,
+				38224928219E9988004ECD63 /* Sources */,
+				38224929219E9988004ECD63 /* Frameworks */,
+				3822492A219E9988004ECD63 /* Resources */,
+				39864AC6A9EABB7AFC842950 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BcoinKeygen;
+			productName = BitcoinKeyGen;
+			productReference = 3822492C219E9988004ECD63 /* BcoinKeygen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3822493F219E998A004ECD63 /* BcoinKeygenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3822494C219E998A004ECD63 /* Build configuration list for PBXNativeTarget "BcoinKeygenTests" */;
+			buildPhases = (
+				3822493C219E998A004ECD63 /* Sources */,
+				3822493D219E998A004ECD63 /* Frameworks */,
+				3822493E219E998A004ECD63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38224942219E998A004ECD63 /* PBXTargetDependency */,
+			);
+			name = BcoinKeygenTests;
+			productName = BitcoinKeyGenTests;
+			productReference = 38224940219E998A004ECD63 /* BcoinKeygenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38224924219E9988004ECD63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Method Up";
+				TargetAttributes = {
+					3822492B219E9988004ECD63 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3822493F219E998A004ECD63 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3822492B219E9988004ECD63;
+					};
+				};
+			};
+			buildConfigurationList = 38224927219E9988004ECD63 /* Build configuration list for PBXProject "BcoinKeygen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38224923219E9988004ECD63;
+			productRefGroup = 3822492D219E9988004ECD63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3822492B219E9988004ECD63 /* BcoinKeygen */,
+				3822493F219E998A004ECD63 /* BcoinKeygenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3822492A219E9988004ECD63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3822493A219E998A004ECD63 /* LaunchScreen.storyboard in Resources */,
+				681AAE0121A774880050D006 /* bcoinaddr.js in Resources */,
+				38224937219E998A004ECD63 /* Assets.xcassets in Resources */,
+				38224935219E9988004ECD63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3822493E219E998A004ECD63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39864AC6A9EABB7AFC842950 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BcoinKeygen/Pods-BcoinKeygen-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework",
+				"${BUILT_PRODUCTS_DIR}/provide/provide.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWTDecode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICKeyChainStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/provide.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BcoinKeygen/Pods-BcoinKeygen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D8E461652BC1E5E8618C386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BcoinKeygen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38224928219E9988004ECD63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38224932219E9988004ECD63 /* ViewController.swift in Sources */,
+				38224930219E9988004ECD63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3822493C219E998A004ECD63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38224945219E998A004ECD63 /* BcoinKeygenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38224942219E998A004ECD63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3822492B219E9988004ECD63 /* BcoinKeygen */;
+			targetProxy = 38224941219E998A004ECD63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38224933219E9988004ECD63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38224934219E9988004ECD63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38224938219E998A004ECD63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38224939219E998A004ECD63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38224947219E998A004ECD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38224948219E998A004ECD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3822494A219E998A004ECD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BC9D854BB5309D4FADE9FB /* Pods-BcoinKeygen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A8DZ57H2Y;
+				INFOPLIST_FILE = BcoinKeygen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = services.provide.BcoinKeygen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3822494B219E998A004ECD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D46A56B9511E5717DAB568 /* Pods-BcoinKeygen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A8DZ57H2Y;
+				INFOPLIST_FILE = BcoinKeygen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = services.provide.BcoinKeygen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3822494D219E998A004ECD63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A8DZ57H2Y;
+				INFOPLIST_FILE = BitcoinKeyGenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = services.provide.BcoinKeygenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BcoinKeygen.app/BcoinKeygen";
+			};
+			name = Debug;
+		};
+		3822494E219E998A004ECD63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A8DZ57H2Y;
+				INFOPLIST_FILE = BitcoinKeyGenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = services.provide.BcoinKeygenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BcoinKeygen.app/BcoinKeygen";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38224927219E9988004ECD63 /* Build configuration list for PBXProject "BcoinKeygen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38224947219E998A004ECD63 /* Debug */,
+				38224948219E998A004ECD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38224949219E998A004ECD63 /* Build configuration list for PBXNativeTarget "BcoinKeygen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3822494A219E998A004ECD63 /* Debug */,
+				3822494B219E998A004ECD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3822494C219E998A004ECD63 /* Build configuration list for PBXNativeTarget "BcoinKeygenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3822494D219E998A004ECD63 /* Debug */,
+				3822494E219E998A004ECD63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38224924219E9988004ECD63 /* Project object */;
+}

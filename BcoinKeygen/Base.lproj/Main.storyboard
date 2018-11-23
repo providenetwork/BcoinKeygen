@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BcoinKeygen" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="pfc-KU-xSY">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <navigationItem title="PRVD Bcoin Keygen" id="Apo-27-vU9" userLabel="Provide Bcoin Keygen">
+                                        <barButtonItem key="rightBarButtonItem" title="Keygen!" id="yBo-RX-Bcm">
+                                            <connections>
+                                                <action selector="generateNewKeyPairWith_sender:" destination="BYZ-38-t0r" id="nH5-4r-iDU"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Public key:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Crf-jw-5Mg">
+                                <rect key="frame" x="16" y="84" width="93" height="17"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Private key:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mdX-pq-ivV">
+                                <rect key="frame" x="16" y="187" width="129" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="z6J-ai-sMM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WNz-zT-8xu" userLabel="Public Key">
+                                <rect key="frame" x="16" y="102" width="343" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="gvR-8M-mlN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="provide-white" translatesAutoresizingMaskIntoConstraints="NO" id="S46-7r-u7R">
+                                <rect key="frame" x="110" y="597" width="154" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AKd-nj-YMG"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="udD-7l-CIs" userLabel="Private Key">
+                                <rect key="frame" x="16" y="214" width="343" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="09e-vh-18A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="mdX-pq-ivV" firstAttribute="leading" secondItem="udD-7l-CIs" secondAttribute="leading" id="Cam-Ui-e22"/>
+                            <constraint firstAttribute="bottom" secondItem="S46-7r-u7R" secondAttribute="bottom" constant="20" symbolic="YES" id="Ih0-5r-tio"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mdX-pq-ivV" secondAttribute="trailing" constant="230" id="NVM-3R-Oe1"/>
+                            <constraint firstItem="WNz-zT-8xu" firstAttribute="trailing" secondItem="udD-7l-CIs" secondAttribute="trailing" id="Ogd-X7-Jge"/>
+                            <constraint firstAttribute="trailing" secondItem="pfc-KU-xSY" secondAttribute="trailing" id="TtE-qQ-zno"/>
+                            <constraint firstItem="pfc-KU-xSY" firstAttribute="centerX" secondItem="WNz-zT-8xu" secondAttribute="centerX" id="UbA-nT-4zM"/>
+                            <constraint firstItem="pfc-KU-xSY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="YrZ-IK-Pel"/>
+                            <constraint firstItem="pfc-KU-xSY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="a8W-rk-nha"/>
+                            <constraint firstItem="Crf-jw-5Mg" firstAttribute="top" secondItem="pfc-KU-xSY" secondAttribute="bottom" constant="20" id="b0Q-jE-MJR"/>
+                            <constraint firstItem="Crf-jw-5Mg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dD7-6Q-ryy"/>
+                            <constraint firstItem="WNz-zT-8xu" firstAttribute="leading" secondItem="mdX-pq-ivV" secondAttribute="leading" id="edr-Ca-H32"/>
+                            <constraint firstItem="Crf-jw-5Mg" firstAttribute="leading" secondItem="WNz-zT-8xu" secondAttribute="leading" id="evB-la-7ac"/>
+                            <constraint firstItem="mdX-pq-ivV" firstAttribute="top" secondItem="WNz-zT-8xu" secondAttribute="bottom" constant="35" id="kRX-EL-crj"/>
+                            <constraint firstItem="udD-7l-CIs" firstAttribute="centerX" secondItem="S46-7r-u7R" secondAttribute="centerX" id="tDh-7Y-hXc"/>
+                            <constraint firstItem="S46-7r-u7R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="110" id="tZj-q8-Gd5"/>
+                            <constraint firstItem="udD-7l-CIs" firstAttribute="top" secondItem="WNz-zT-8xu" secondAttribute="bottom" constant="62" id="uHK-88-BnO"/>
+                            <constraint firstItem="WNz-zT-8xu" firstAttribute="top" secondItem="Crf-jw-5Mg" secondAttribute="bottom" constant="1" id="wM6-Ov-MKa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="privateKeyField" destination="udD-7l-CIs" id="WlG-v7-7d4"/>
+                        <outlet property="publicKeyField" destination="WNz-zT-8xu" id="qqy-Ys-B0p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="provide-white" width="2458" height="800"/>
+    </resources>
+</document>
